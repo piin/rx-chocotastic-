@@ -54,7 +54,6 @@ struct Chocolate: Equatable {
                           countryName: "Switzerland",
                           countryFlagEmoji: "🇨🇭")
     
-    
     return [
       belgian,
       british,
