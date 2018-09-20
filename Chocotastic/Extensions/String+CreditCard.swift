@@ -34,7 +34,7 @@ extension String {
       return NSNotFound
     }
     
-    if characters > self.characters.count {
+    if characters > self.count {
       return NSNotFound
     }
     
@@ -56,7 +56,7 @@ extension String {
       return false
     }
     
-    let reversed = self.characters.reversed().map { String($0) }
+    let reversed = self.reversed().map { String($0) }
     
     var sum = 0
     for (index, element) in reversed.enumerated() {
